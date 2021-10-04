@@ -1,5 +1,5 @@
-baseURL = "https://examplesite.com/"
-title = "ExampleSite"
+baseURL = "https://almibar.mx"
+title = "Almíbar | Soluciones de Azúcar"
 paginate = 5
 theme = "PaperMod"
 enableRobotsTXT = true
@@ -14,17 +14,17 @@ minifyOutput = true
 
 [params]
 env = "production"
-title = "ExampleSite"
-description = "ExampleSite description"
-keywords = [ "Blog", "Portfolio", "PaperMod" ]
+title = "Almíbar | Soluciones de Azúcar"
+description = "Comercializadora nacional de Azúcar en sus distintas variedades."
+keywords = [ "Comercializadora", "Azúcar", "Mayoreo" ]
 author = "Me"
 images = [ "<link or path of image for opengraph, twitter-cards>" ]
 DateFormat = "January 2, 2006"
-defaultTheme = "auto"
-disableThemeToggle = false
+defaultTheme = "light"
+disableThemeToggle = true
 ShowReadingTime = true
 ShowShareButtons = true
-ShowPostNavLinks = true
+ShowPostNavLinks = false
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = false
 disableSpecial1stPost = false
@@ -43,8 +43,7 @@ tocopen = false
   safari_pinned_tab = "<link / abs url>"
 
   [params.label]
-  text = "Home"
-  icon = "/apple-touch-icon.png"
+  text = "🌟"
   iconHeight = 35
 
   [params.profileMode]
@@ -65,20 +64,10 @@ tocopen = false
     url = "tags"
 
   [params.homeInfoParams]
-  Title = "Hi there 👋"
-  Content = "Welcome to my blog"
+  Title = "Almíbar | Soluciones de Azúcar"
+  Content = "Contacto: 5522204251 o ventas@almibar.mx"
 
-  [[params.socialIcons]]
-  name = "twitter"
-  url = "https://twitter.com/"
-
-  [[params.socialIcons]]
-  name = "stackoverflow"
-  url = "https://stackoverflow.com"
-
-  [[params.socialIcons]]
-  name = "github"
-  url = "https://github.com/"
+  
 
 [params.analytics.google]
 SiteVerificationTag = "XYZabc"
@@ -107,21 +96,3 @@ SiteVerificationTag = "XYZabc"
   threshold = 0.4
   minMatchCharLength = 0
   keys = [ "title", "permalink", "summary", "content" ]
-
-[[menu.main]]
-identifier = "categories"
-name = "categories"
-url = "/categories/"
-weight = 10
-
-[[menu.main]]
-identifier = "tags"
-name = "tags"
-url = "/tags/"
-weight = 20
-
-[[menu.main]]
-identifier = "example"
-name = "example.org"
-url = "https://example.org"
-weight = 30
